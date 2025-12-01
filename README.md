@@ -1,16 +1,49 @@
-# React + Vite
+# GeekyAir Frontend Developer Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the **Frontend Assessment** for GeekyAir's Frontend Developer position.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The task was to build a **pixel-perfect landing page** based on the provided Figma design, focusing on:
 
-## React Compiler
+- **Design Accuracy** (matching the Figma layout precisely)
+- **Animations** (Social Proof section auto-scroll)
+- **Clean & Organized Code**
+- **Responsive Design**
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (Functional Components, Hooks)
+- **TailwindCSS** (for styling)
+- **React Icons** (for icons)
+- **Vite** (fast build & development)
+- **GitHub** (version control)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Pixel-perfect landing page matching Figma design
+- Sticky Navigation Bar
+- Hero section with Call-to-Action
+- Social Proof section with smooth infinite scrolling animation
+- Stats / Metrics section
+- Value Proposition section
+- Brand Needs section
+- Fast Launch section
+- PostPilot For DTC section
+- Latest Trends section
+- Fully responsive layout
+- Live deployment link (see below)
+
+## Deployment
+
+The project is deployed using **Vercel**:
+
+[Live Site URL](https://geekyair-frontend-assessment.vercel.app/)
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/<YourUsername>/geekyair-frontend-assessment.git
+cd geekyair-frontend-assessment
+npm install
+npm run dev
