@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme inline {
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Covered By Your Grace", cursive;
+
+    --color-primary: #FF6D2C;
+    --color-secondary: #009387;
+
+
+
+}
