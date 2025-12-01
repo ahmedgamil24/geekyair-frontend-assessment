@@ -38,7 +38,7 @@ const Hero = () => {
     <div className="w-full flex justify-center lg:justify-end mt-12 lg:mt-0">
       <img 
         className="w-[80%] md:w-[60%] lg:w-full"
-        src="/public/images/hero/hero.png"
+        src="/images/hero/hero.png"
         alt="Hero"
       />
     </div>
