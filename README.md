@@ -31,6 +31,7 @@ The task was to build a **pixel-perfect landing page** based on the provided Fig
 - Fast Launch section
 - PostPilot For DTC section
 - Latest Trends section
+- Footer section
 - Fully responsive layout
 - Live deployment link (see below)
 
