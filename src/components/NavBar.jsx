@@ -6,8 +6,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <Container>
-      <nav className="">
+    <Container className="sticky top-0 bg-[#ffffff]" >
+      <nav >
         <div className="bg-[#ffffff] flex flex-row justify-between items-center  h-16">
           <div className="">
             <a href="/">

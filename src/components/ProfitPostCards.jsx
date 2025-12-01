@@ -1,8 +1,14 @@
 import React from 'react'
 import Container from './common/Container'
 import SectionTitle, { CursiveTitle } from './ui/SectionTitle'
+import Button from './ui/Button'
 
 const ProfitPostCards = () => {
+    const profitCards = [
+        {id: "1", title: "acquisition & retention", cursiveTitle: "Powerful", paragraph: "Send one-off or triggered campaigns to customers & prospects. Target email leads with MailMatch™.", quoteCard:{cardTitle: "It’s like Klaviyo for direct mail. The results are absolutely insane.", cardParagraph: "Ash Melwani, CMO", cardImage: ""}},
+        {id: "2", title: "against iOS updates, jacked-up CPCs & spam folders", cursiveTitle: "Fight back", paragraph: "Deliver your message to all of your customers — for less than the cost of a click.", quoteCard:{cardTitle: "PostPilot is our new weapon against sinking email engagement and rising PPC costs. The results and ROI have been outstanding. It’s now one of our core marketing channels to increase acquisition & LTV.", cardParagraph: "Leah Keith, GM", cardImage: ""}},
+        {id: "3", title: "Done for", cursiveTitle: "you", paragraph: "From design & strategy to stamp-licking, our ecom experts help you every step of the way.", quoteCard:{cardTitle: "The team is so knowledgeable and beyond helpful. I’m blown away by their communication, detail, and attentiveness and always feel like they have our best interest in mind. Definitely worth a try.", cardParagraph: "Holly Davies, Marketing Director", cardImage: ""}},
+    ]
   return (
     <section className='bg-[#FDF3EA]'>
     <Container>
@@ -12,6 +18,8 @@ const ProfitPostCards = () => {
     send personalized, profit- <br />
     generating postcards.
 </SectionTitle>
+
+    <div className='flex flex-col'>
 
             <div className='pb-32'>     
                 <SectionTitle className='text-left'>
@@ -40,7 +48,7 @@ const ProfitPostCards = () => {
             </div>
 
 
-            <div className='pb-32 '>     
+            <div className='pb-32 self-end w-fit '>     
                 <SectionTitle className='text-left'>
                     <CursiveTitle>
                         Powerful <br />
@@ -91,7 +99,12 @@ const ProfitPostCards = () => {
                         <img className='max-w-[53.38px] max-h-[23.98px]' src="/images/profit-post-card/profit-post-card-obvi-image.png" alt="" />
                     </div>
                 </div>
+        <Button text='Try it RISK-free' className='mt-12'></Button>
+
             </div>
+
+    </div>
+    
 
         </div>
     </Container>
