@@ -3,12 +3,12 @@ import SectionTitle, { CursiveTitle } from "./ui/SectionTitle";
 
 const BrandNeeds = () => {
   const cardImages = [
-    { id: 1, bg:"#E0F8F2" , src: "/images/brand-needs/paying.png", alt: "Logo 1", titlle: "Plug-and-play with your stack", paragraph: "Native integrations provide seamless segmentation, automation & tracking. No clunky spreadsheets." },
-    { id: 2, bg:"#FDF3EA" , src: "/images/brand-needs/compaigns.png", alt: "Logo 2", titlle: "Run campaigns on autopilot", paragraph: "Ink profits while you sleep: Just set it and forget it."},
-    { id: 3, bg:"#E0F8F2" , src: "/images/brand-needs/dashboard.png", alt: "Logo 3", titlle: "Real-time ROI dashboard", paragraph: "Track performance of every postcard by customer or discount code. Your CFO will love it." },
-    { id: 4, bg:"#FDF3EA" , src: "/images/brand-needs/handwritten-card.png", alt: "Logo 4", titlle: "Deliver WOW with *real* handwritten cards", paragraph: "Our proprietary robots use real pens and ink for an unforgettable VIP touch." },
-    { id: 5, bg:"#E0F8F2" , src: "/images/brand-needs/predictable-pricing.png", alt: "Logo 5", titlle: "Predictable pricing", paragraph: "Unlike CPCs, postage rates don’t change based on competition or who you’re targeting." },
-    { id: 6, bg:"#FDF3EA" , src: "/images/brand-needs/service.png", alt: "Logo 6", titlle: "Complimentary concierge service", paragraph: "DTC is in our DNA. Our pros will build your strategy and custom designs using battle-tested best practices." },
+    { id: 1, bg:"#FDF3EA" , src: "/images/brand-needs/paying.png", alt: "Logo 1", titlle: "Plug-and-play with your stack", paragraph: "Native integrations provide seamless segmentation, automation & tracking. No clunky spreadsheets." },
+    { id: 2, bg:"#E0F8F2" , src: "/images/brand-needs/compaigns.png", alt: "Logo 2", titlle: "Run campaigns on autopilot", paragraph: "Ink profits while you sleep: Just set it and forget it."},
+    { id: 3, bg:"#EEECFF" , src: "/images/brand-needs/dashboard.png", alt: "Logo 3", titlle: "Real-time ROI dashboard", paragraph: "Track performance of every postcard by customer or discount code. Your CFO will love it." },
+    { id: 4, bg:"#D9F2F7" , src: "/images/brand-needs/handwritten-card.png", alt: "Logo 4", titlle: "Deliver WOW with *real* handwritten cards", paragraph: "Our proprietary robots use real pens and ink for an unforgettable VIP touch." },
+    { id: 5, bg:"#FAEDED" , src: "/images/brand-needs/predictable-pricing.png", alt: "Logo 5", titlle: "Predictable pricing", paragraph: "Unlike CPCs, postage rates don’t change based on competition or who you’re targeting." },
+    { id: 6, bg:"#F1F1F1" , src: "/images/brand-needs/service.png", alt: "Logo 6", titlle: "Complimentary concierge service", paragraph: "DTC is in our DNA. Our pros will build your strategy and custom designs using battle-tested best practices." },
   ];
   return (
     <Container>

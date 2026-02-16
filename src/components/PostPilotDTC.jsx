@@ -18,7 +18,7 @@ const PostPilotDTC = () => {
     </SectionTitle>
 
     <Container>
-    <div className='mb-16 flex flex-col md:flex-row justify-around gap-6'>
+    <div className='mb-16 flex flex-col md:flex-row  justify-around gap-6'>
         {cardsDtc.map(card => (
             <div key={card.id} className='border-2 rounded-2xl px-8 py-8'>
                 <div className='flex justify-between items-center'>
