@@ -24,13 +24,14 @@ The task was to build a **pixel-perfect landing page** based on the provided Fig
 - Pixel-perfect landing page matching Figma design
 - Sticky Navigation Bar
 - Hero section with Call-to-Action
-- Social Proof section with smooth infinite scrolling animation
+- Social Proof section
 - Stats / Metrics section
 - Value Proposition section
 - Brand Needs section
 - Fast Launch section
 - PostPilot For DTC section
 - Latest Trends section
+- Footer section
 - Fully responsive layout
 - Live deployment link (see below)
 
